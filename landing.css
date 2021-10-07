@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    background-color: rgb(88, 148, 216);
+}
+
+header{
+    
+    width: 100%;
+    height: 100px;
+}
+header .contact{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(244, 244, 247);
+}
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    
+}
+.nav-bar .left-nav{
+    display: flex;
+    width: 60%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    
+}
+.brand h1{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    color: white;
+    font-size: 25px;
+    
+    
+}
+.menu .list-items{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    
+}
+.menu .list-items li{
+    color: white;
+    width: 20%;
+    line-height: 45px;
+    height: 100%;
+    font-size: 18px;
+    
+}
+.menu .list-items li .product{
+    background-color: rgb(88, 148, 216);
+}
+.menu .list-items li .solutions{
+    background-color: rgb(88, 148, 216);
+}
+.menu .list-items li .resources{
+    background-color: rgb(88, 148, 216);
+}
+.menu .list-items li:hover{
+    cursor: pointer;
+
+}
+.menu .list-items li >select{
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+}
+.nav-bar .right-nav{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    
+    line-height: 85px;
+    background-color: transparent;
+}
+.left-nav .brand{
+    width: 30%;
+    height: 100%;
+    
+}
+.left-nav .menu{
+    width: 70%;
+    height: 100%;
+}
+.right-nav > button{
+   margin-right: 25px;
+   font-size: 25px;
+   color: white;
+   border-radius: 3px;
+}
+.right-nav >button:hover{
+    cursor: pointer;
+}
+.right-nav >button:first-child{
+    background-color: rgb(102, 211, 102);
+}
+.right-nav >button:last-child{
+    background-color: transparent;
+
+}
+.contact .list-items{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+.contact .list-items >li{
+    list-style: none;
+    margin-right: 10px;
+}
+.contact .list-items >li:first-child{
+    margin-left: 920px;
+
+}
+main{
+    width: 100%;
+    height: 100%;
+    
+}
+main .main-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 35px;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.form-text{
+    display: flex;
+    gap: 15px;
+}
+.checkbox-design{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-design input{
+    line-height: 12px;
+    font-size: 30px;
+    
+}
+.checkbox-design p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.left-part{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.left-part-container{
+    width: 555px;
+    margin-left: 200px;
+    height: fit-content;
+    position: absolute;
+    margin-top: 50px;
+    
+    
+}
+.left-part-container > h1, .left-part-container > h3{
+    color: white;
+}
+   
+
+
+.left-part-container #free-ebook{
+    width: fit-content;
+    font-size: 15px;
+    color: white;
+    background-color: gray;
+}
+.left-part-container form .div1,.div2{
+    display: flex;
+    gap:8px;
+    
+}
+.left-part-container form .div1 > input{
+    font-size: 20px;
+    
+}
+.left-part-container form .div2 > input{
+    font-size: 20px;
+    
+}
+.left-part-container form .div1{
+    margin-bottom: 6px;
+}
+.left-part-container form .form-text p{
+    font-size: 15px;
+    color: white;
+}
+.left-part-container form .div3{
+    display: flex;
+    gap: 8px;
+}
+.left-part-container form .div3 select{
+    width: 260px;
+    height: 30px;
+}
+.left-part-container form button{
+    background-color:rgb(68, 65, 65);
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.left-part-container form button:hover{
+    cursor: pointer;
+}
+.right-part{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.right-part img{
+    margin-top: 50px;
+    
+}
+footer{
+    width: 100%;
+    height: 110px;
+    background-color: gray;
+}
+footer section h2 {
+    display: inline-block;
+    padding-right: 12px;
+   
+ }
+ #icons{
+     text-align: center;
+     padding-top: 8px;
+ }
+ footer p{
+     text-align: center;
+ }
